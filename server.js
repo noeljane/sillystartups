@@ -1,7 +1,11 @@
+//NPM Packages
 const
   express = require('express'),
   app = express(),
   PORT = 3000
+
+//Modules
+const mongoose = require('./db/mongoose')
 
 
 

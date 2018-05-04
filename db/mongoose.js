@@ -2,4 +2,6 @@ const mongoose = require('mongoose')
 
 
 mongoose.Promise = global.Promise;
-mongoose.connect()
+mongoose.connect('mongodb://localhost:27017/startups')
+
+module.exports = mongoose
